@@ -80,6 +80,15 @@ nav img {
     text-align: right;
 }
 
+.to-center {
+    color: #fff;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
 .nav-links ul li {
     list-style: none;
     display: inline-block;
@@ -516,6 +525,7 @@ h3 {
     background-position: center !important;
     text-align: center;
     color: #fff;
+    display: flex;
 }
 
 .sub-header h1 {
