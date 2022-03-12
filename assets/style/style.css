@@ -4,7 +4,7 @@
     font-family: 'Poppins', sans-serif;}
 
 .header {
-    min-width: 100vh;
+    /* min-width: 100vh;
     width: 100%;
     height: 650px;
 
@@ -13,7 +13,17 @@
     background-repeat: no-repeat !important;
     background-size: cover !important;
     background-position: center !important;
-    position: relative;
+    position: relative; */
+
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("../images/banner.png");
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    text-align: center;
+    color: #fff;
+
 }
 
 nav {
