@@ -200,6 +200,10 @@ nav .fa {
     .nav-links ul {
         padding: 30px;
     }
+
+    .nav-links ul li:first-child {
+        padding: 8px 12px;
+    }
     
 }
 
@@ -210,6 +214,7 @@ nav .fa {
         align-items: end;
         padding-left: 450px;
     }
+
     
 }
 
