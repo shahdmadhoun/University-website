@@ -16,27 +16,34 @@
 <body>
     <!-- navbar and landing img -->
     <section class="header">
-        <nav>
-            <a href="index.html"><img src="./assets/images/logo.png"></a>
-            <div class="nav-links" id="navLinks">
-                <i class="fa fa-times" onclick="hideMenu()"></i>
-                <!-- <i class="fa-solid fa-square-xmark"></i> -->
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="About.html">ABOUT</a></li>
-                    <li><a href="course.html">COURSE</a></li>
-                    <li><a href="blog.html">BLOG</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
+        <div class="video-container">
+            <video autoplay muted loop id="myVideo" src="./assets/video/video.mov"></video>
+        </div>
 
-                </ul>
+        <div class="content">
+            <nav>
+                <a href="index.html"><img src="./assets/images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <!-- <i class="fa-solid fa-square-xmark"></i> -->
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="About.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+    
+                    </ul>
+                </div>
+                <i class="fa fa-solid fa-bars"  onclick="showMenu()"></i>
+            </nav>
+    
+            <div class="text-box">
+                <h1>World's Biggest University</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed maiores debitis earum beatae eum deleniti, placeat cupiditate ipsam asperiores fugiat optio distinctio id,<br> molestiae quia dolores laboriosam, consequatur ipsa ex!</p>
+                <a href="" class="hero-btn">Visit Us To Know More</a>
             </div>
-            <i class="fa fa-solid fa-bars"  onclick="showMenu()"></i>
-        </nav>
-
-        <div class="text-box">
-            <h1>World's Biggest University</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed maiores debitis earum beatae eum deleniti, placeat cupiditate ipsam asperiores fugiat optio distinctio id,<br> molestiae quia dolores laboriosam, consequatur ipsa ex!</p>
-            <a href="" class="hero-btn">Visit Us To Know More</a>
+    
         </div>
     </section>  
 
@@ -182,7 +189,6 @@
             <i class="fa fa-instagram"></i>
             <i class="fa fa-linkedin"></i>
         </div>
-        <p>Made With <i class="fa fa-heart-o"></i> By Easy Tutorials</p>
     </section>
 
 
